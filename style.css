@@ -4,12 +4,78 @@
     box-sizing: border-box;
 }
 
-.navbar-brand {
-
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (min-width: 768px) {
-    .container {
-        width: 80%;
+.container {
+        width: 90%;
+        margin: auto;
+    }
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    background-color: #2C3E50;
+}
+
+.button {
+    display: inline-block;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.text-menu {
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.navbar-toggle .icon-bar {
+    width: 14px;
+}
+
+.navbar-toggle {
+    background-color: #1ABC9C;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #148F77;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 25px;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+    .navbar-nav {
+        float: right;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        background-color: #2C3E50;
+        text-transform: uppercase;
+
+    }
+
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        font-size: 1.2em;
+        padding:10px;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover {
+        background-color: ;
     }
 }
