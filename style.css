@@ -114,7 +114,8 @@ section.opposite .separator::after {
 
 #portfolio img {
     max-width: 80%;
-    padding-top: 10%;
+    margin-top: 10%;
+    border-radius: 10px;
 }
 
 .row-img {
@@ -148,7 +149,6 @@ section.opposite .separator::after {
 
     #portfolio img {
         max-width: 80%;
-        padding-top: 10%;
     }
 }
 
@@ -175,7 +175,6 @@ section.opposite .separator::after {
     }
 
     #portfolio img {
-        max-width: 80%;
-        padding-top: 10%;
+        max-width: 100%;
     }
 }
