@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-        width: 90%;
+        width: 70%;
         margin: auto;
     }
 
@@ -142,11 +142,13 @@ section.opposite .separator::after {
 .text-box {
     border: none;
     width: 100%;
+    font-size: 1.4em;
 }
 
 .text-area {
     border: none;
     width: 100%;
+    font-size: 1.4em;
 }
 
 @media screen and (min-width:768px) {
@@ -197,7 +199,7 @@ section.opposite .separator::after {
     }
 
     #portfolio img {
-        max-width: 100%;
+        max-width: 85%;
     }
 
     #about .container {
