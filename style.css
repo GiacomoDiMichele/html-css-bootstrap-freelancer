@@ -139,6 +139,16 @@ section.opposite .separator::after {
 
 }
 
+.text-box {
+    border: none;
+    width: 100%;
+}
+
+.text-area {
+    border: none;
+    width: 100%;
+}
+
 @media screen and (min-width:768px) {
     .navbar-nav {
         float: right;
@@ -186,11 +196,6 @@ section.opposite .separator::after {
         font-size: 24px;
     }
 
-    .container {
-        width: 67%;
-        margin: auto;
-    }
-
     #portfolio img {
         max-width: 100%;
     }
@@ -201,6 +206,10 @@ section.opposite .separator::after {
 
     #about p {
         font-size: 1.6em;
+    }
+
+    #contact .container {
+        width: 55%;
     }
 
 }
