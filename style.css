@@ -108,7 +108,16 @@ section.opposite .separator::after {
     background-color: white;
 }
 
-#portfolio {
+#portfolio h1 , .separator {
+    text-align: center;
+}
+
+#portfolio img {
+    max-width: 80%;
+    padding-top: 10%;
+}
+
+.row-img {
     text-align: center;
 }
 
@@ -136,6 +145,11 @@ section.opposite .separator::after {
     .navbar-inverse .navbar-nav>li>a:hover {
         background-color: ;
     }
+
+    #portfolio img {
+        max-width: 80%;
+        padding-top: 10%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -156,8 +170,12 @@ section.opposite .separator::after {
     }
 
     .container {
-        width: 65%;
+        width: 67%;
         margin: auto;
     }
 
+    #portfolio img {
+        max-width: 80%;
+        padding-top: 10%;
+    }
 }
