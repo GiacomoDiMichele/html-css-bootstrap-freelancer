@@ -54,6 +54,64 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     color: white;
 }
 
+@media screen (max-width:266px) {
+    .navbar {
+        min-height:130px;
+    }
+}
+
+section {
+    padding: 50px 0;
+    color: #2c3e50;
+}
+
+section.opposite {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.avatar {
+    max-width: 240px;
+    padding-top: 80px;
+}
+
+.intro-title {
+    font-size: 44px;
+}
+
+.intro-text {
+    font-size: 20px;
+}
+
+.separator {
+    margin: 20px 0;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2c3e50;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.separator .fa-star {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+section.opposite .separator::before,
+section.opposite .separator::after {
+    background-color: white;
+}
+
+#portfolio {
+    text-align: center;
+}
+
 @media screen and (min-width:768px) {
     .navbar-nav {
         float: right;
@@ -78,4 +136,28 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     .navbar-inverse .navbar-nav>li>a:hover {
         background-color: ;
     }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-default .navbar-brand {
+        font-size: 22px;
+    }
+
+    section {
+        padding: 100px 0;
+    }
+
+    .intro-title {
+        font-size: 64px;
+    }
+
+    .intro-text {
+        font-size: 24px;
+    }
+
+    .container {
+        width: 65%;
+        margin: auto;
+    }
+
 }
