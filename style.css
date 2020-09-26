@@ -54,7 +54,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     color: white;
 }
 
-@media screen (max-width:266px) {
+@media screen (max-width:290px) {
     .navbar {
         min-height:130px;
     }
@@ -139,16 +139,38 @@ section.opposite .separator::after {
 
 }
 
+#contact h1 {
+    font-size: 3.5em;
+}
 .text-box {
     border: none;
     width: 100%;
     font-size: 1.4em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
 }
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
 
 .text-area {
     border: none;
     width: 100%;
     font-size: 1.4em;
+    padding-top: 30px;
+    padding-bottom: 130px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.btn-success {
+    padding: 20px 30px;
+    font-size: 1.2em;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    background-color: #1ABC9C;
+    margin-top: 25px;
 }
 
 @media screen and (min-width:768px) {
@@ -211,7 +233,7 @@ section.opposite .separator::after {
     }
 
     #contact .container {
-        width: 55%;
+        width: 48%;
     }
 
 }
