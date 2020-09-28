@@ -113,12 +113,49 @@ section.opposite .separator::after {
 #portfolio h1 , .separator {
     text-align: center;
 }
+.row-img {
+    margin-left: 40px;
+}
 
 #portfolio img {
     max-width: 80%;
     margin-top: 10%;
     border-radius: 10px;
 }
+
+.grid {
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+}
+
+.grid-overlay {
+    opacity: 0;
+    position: absolute;
+    top: 31px;
+    bottom: 0;
+    left: 38px;
+    right: 0;
+    width: 78%;
+    height: 87%;
+    border-radius: 10px;
+    background-color: #19AB8E;
+}
+
+.grid-overlay i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5.0em;
+    color: white;
+}
+
+.grid-overlay:hover {
+    opacity: 0.8;
+    transition: all 1s;
+}
+
 .row-img , .row-about {
     text-align: center;
 }
@@ -228,8 +265,6 @@ input:focus, textarea:focus, select:focus{
     color: white;
     font-size: 0.9em;
 }
-
-
 
 #facebook-icon {
     padding-left: 13px;
